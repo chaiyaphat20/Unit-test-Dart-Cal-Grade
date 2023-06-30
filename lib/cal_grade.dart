@@ -3,7 +3,7 @@ class CalGrade {
     if (point >= 90) {
       return "A";
     }  else {
-      return "";
+      return "" ;
     }
   }
 }
