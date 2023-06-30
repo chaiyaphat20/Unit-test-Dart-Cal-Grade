@@ -4,6 +4,8 @@ class CalGrade {
       return "A";
     } else if (point >= 70) {
       return "B";
+    } else if (point >= 60) {
+      return "C";
     } else if (point >= 51) {
       return "D";
     } else {

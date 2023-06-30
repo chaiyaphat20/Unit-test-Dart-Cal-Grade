@@ -37,6 +37,17 @@ void main() {
 
               //assert
               expect(actualValue, expectedValue);
+            }),
+            test('4.ถ้า กรอก 60 คะแนน ได้เกรด C', () {
+              //arrange
+              String expectedValue = "C";
+              CalGrade calGrade = CalGrade();
+
+              //act
+              String actualValue = calGrade.grade(60);
+
+              //assert
+              expect(actualValue, expectedValue);
             })
           });
 }
