@@ -5,7 +5,7 @@ void main() {
   group(
       "คำนวณ เกรด",
       () => {
-            test('1.ถ้า กรอก 90 คะแนน ได้เกรด A', () {
+            test('1.ถ้า กรอก 91 คะแนน ได้เกรด A', () {
               //arrange
               String expectedValue = "A";
               CalGrade calGrade = CalGrade();
